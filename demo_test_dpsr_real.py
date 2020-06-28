@@ -62,7 +62,7 @@ def main():
     testsets = 'testsets'
     testset_current = 'real_imgs'
 
-    im = 'chip.png'  # chip.png colour.png
+    im = 'colour.jpg'  # chip.png colour.png
 
     if 'chip' in im:
         noise_level_img = 8./255.
