@@ -64,10 +64,10 @@ def main():
 
     im = 'colour.jpg'  # chip.png colour.png
 
-    if 'chip' in im:
-        noise_level_img = 8./255.
-    elif 'colour' in im:
-        noise_level_img = 0.5/255.
+    # if 'chip' in im:
+    #     noise_level_img = 8./255.
+    # elif 'colour' in im:
+    #     noise_level_img = 0.5/255.
 
     use_srganplus = False
     if use_srganplus and sf == 4:
